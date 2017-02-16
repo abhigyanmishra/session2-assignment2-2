@@ -1,0 +1,20 @@
+The Hadoop Distributed File System (HDFS) is a sub-project of the Apache Hadoop project. This Apache Software Foundation project is
+designed to provide a fault-tolerant file system designed to run on commodity hardware.
+The Hadoop Distributed File System (HDFS) is the primary storage system used by Hadoop applications.
+
+According to The Apache Software Foundation, the primary objective of HDFS is to store data reliably even in the presence of failures
+including NameNode failures, DataNode failures and network partitions. The NameNode is a single point of failure for the HDFS cluster
+and a DataNode stores data in the Hadoop file management system.
+
+HDFS uses a master/slave architecture in which one device (the master) controls one or more other devices (the slaves).
+The HDFS cluster consists of a single NameNode and a master server manages the file system namespace and regulates access to files.
+HDFS is a distributed file system that provides high-performance access to data across Hadoop clusters. Like other Hadoop-related
+technologies, HDFS has become a key tool for managing pools of big data and supporting big data analytics applications.
+
+Because HDFS typically is deployed on low-cost commodity hardware, server failures are common. The file system is designed to be highly
+fault-tolerant, however, by facilitating the rapid transfer of data between compute nodes and enabling Hadoop systems to continue running
+if a node fails. That decreases the risk of catastrophic failure, even in the event that numerous nodes fail.
+
+HDFS is built to support applications with large data sets, including individual files that reach into the terabytes. It uses a
+master/slave architecture, with each cluster consisting of a single NameNode that manages file system operations and supporting
+DataNodes that manage data storage on individual compute nodes.
